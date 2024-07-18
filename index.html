@@ -1,0 +1,104 @@
+﻿<!-- Index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,
+					initial-scale=1.0">
+    <title>Lorem Ipsum Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>   
+    <main>
+        <h1>Lorem Ipsum Generator</h1>
+        <div class="options">
+            <div class="paragraphs">
+                <label for="paragraphs">
+                    Paragraphs:
+                </label>
+                <input type="range"
+                       id="paragraphs"
+                       min="1" max="50"
+                       value="1">
+                <span id="paragraphsValue">
+                    1
+                </span>
+            </div>
+            <div class="words">
+                <label for="words">
+                    Words per Paragraph:
+                </label>
+                <input type="range"
+                       id="words"
+                       min="1"
+                       max="200"
+                       value="20">
+                <span id="wordsValue">
+                    20
+                </span>
+            </div>
+            <div class="tags">
+                <label for="tags">
+                    Tag:
+                </label>
+                <select id="tags">
+                </select>
+            </div>
+            <div class="include">
+                <label for="include">
+                    Include HTML:
+                </label>
+                <select id="include">
+                    <option value="Yes">
+                        Yes
+                    </option>
+                    <option value="No">
+                        No
+                    </option>
+                </select>
+            </div>
+            <button id="generate">
+                Generate Lorem Ipsum
+            </button>
+        </div>
+        <div class="output">
+            /* Select options and press Generate button! */
+            <!-- Lorem Ipsum text will
+        be displayed here -->
+        </div>
+        <div class="function-bar">
+            <button id="copyText">Copy Text</button>
+            <button id="copyHtml">Copy HTML</button>
+        </div>
+    </main>
+    <footer class="bg-dark text-light">
+        <div class="footer-content">
+            <h2>About Lorem Ipsum Generator</h2>
+            <p>
+                The Lorem Ipsum Generator is a versatile and robust tool designed to help developers, designers, and content creators easily generate placeholder text. This tool allows users to customize the number of paragraphs and words per paragraph, choose HTML tags to wrap the text, and even include or exclude HTML formatting. Whether you are building a website, creating a mockup, or need placeholder text for any other purpose, this generator provides a quick and efficient way to produce Lorem Ipsum text tailored to your specific needs.
+            </p>
+            <p>
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <p>
+                This tool's use cases are extensive and varied. Web developers can use it to test layouts and ensure that text elements behave as expected. Graphic designers can insert placeholder text into their designs to visualize how the final product will look. Writers and editors can use the generator to brainstorm content flow and structure without getting bogged down by the specifics of the text. Educational institutions can utilize the tool to teach students about web development, design principles, and content management without needing to provide actual content.
+            </p>
+            <p>
+                The Lorem Ipsum Generator is not just about generating text; it’s about enhancing productivity and creativity. By providing a quick and customizable way to produce placeholder text, it allows users to focus on the bigger picture of their projects. The tool is intuitive and user-friendly, with a clean interface that makes it easy to adjust parameters and generate text on the fly. Additionally, the inclusion of features like copying text and HTML to the clipboard with a single click adds to its utility, making it a valuable addition to any developer’s or designer’s toolkit.
+            </p>
+            <p>
+                We continually strive to improve the Lorem Ipsum Generator by adding new features and enhancing its capabilities. Future updates may include more customization options, integration with popular design and development tools, and even more user-friendly interfaces. Our goal is to make this tool as useful and accessible as possible for all users, regardless of their technical expertise.
+            </p>
+            <p>
+                Thank you for using the Lorem Ipsum Generator. We hope it helps you in your creative and professional endeavors. If you have any feedback or suggestions for improvement, please do not hesitate to reach out to us.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

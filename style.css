@@ -1,0 +1,40 @@
+﻿/* Styles.css*/
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: Arial, sans-serif; background-color: #f2f2f2; }
+
+header {  color: #333; text-align: center; padding: 20px 0;  }
+
+h1 { font-size: 28px; }
+
+main { max-width: 800px; margin: 20px auto; padding: 20px; background-color: #fff; border-radius: 10px; }
+main h1{text-align:center;
+        margin-bottom:20px;
+}
+.options { margin-bottom: 20px; }
+
+    .options label { display: block; font-weight: bold; margin-bottom: 10px; color: #333; }
+
+    .options input[type="range"],
+    .options select,
+    .options input[type="number"] { width: 100%; padding: 15px; border: 1px solid #ddd; border-radius: 13px; background-color: #f9f9f9; color: #000; }
+
+    .options select { appearance: none; }
+
+    .options button { display: block; width: 100%; padding: 15px; background-color: #2196F3; color: #fff; font-size: 20px; font-weight: bold; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease; }
+
+        .options button:hover { background-color: #045fa6; }
+    .options > * { margin-bottom: 20px; }
+.output { border-radius: 10px; border: 1px solid #ccc; min-height: 200px; color: #333; padding: 20px; background: #f7f7f7; max-height: 300px; overflow: auto; }
+    .output * { margin-bottom: 10px; }
+
+.function-bar { margin-top: 20px; }
+    .function-bar button { cursor: pointer; display: inline-block; font-weight: 400; color: #212529; text-align: center; vertical-align: middle; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; background-color: transparent; border: 1px solid transparent; padding: .375rem .75rem; font-size: 1rem; line-height: 1.5; border-radius: .25rem; transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out; color: #fff; background-color: #007bff; border-color: #007bff; }
+        .function-bar button:hover { color: #fff; background-color: #0069d9; border-color: #0062cc; }
+footer { background-color: #343a40; color: #fff; padding: 20px 0; text-align: center; box-shadow: 0px -4px 8px 0px rgba(0, 0, 0, 0.2); margin-top: 100px; }
+
+.footer-content { max-width: 800px; margin: 0 auto; padding: 20px;  }
+
+    .footer-content h2 { font-size: 24px; margin-bottom: 10px; }
+
+    .footer-content p { font-size: 16px; margin-bottom: 10px; line-height: 1.6; text-align: justify; }
