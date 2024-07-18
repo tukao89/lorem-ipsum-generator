@@ -1,3 +1,6 @@
+<img width="609" alt="lorem-generator" src="https://github.com/user-attachments/assets/2ac47668-29dd-4b08-b65a-cbb5b26d2f44">
+
+
 **Lorem Ipsum Generator** is a versatile and robust tool designed to help developers, designers, and content creators easily generate placeholder text. This tool allows users to customize the number of paragraphs and words per paragraph, choose HTML tags to wrap the text, and even include or exclude HTML formatting. Whether you are building a website, creating a mockup, or need placeholder text for any other purpose, this generator provides a quick and efficient way to produce Lorem Ipsum text tailored to your specific needs.
 
 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularized in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
